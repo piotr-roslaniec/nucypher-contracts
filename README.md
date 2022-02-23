@@ -33,3 +33,11 @@ In future, we may need to set the following:
 
 This project uses [tox](https://tox.readthedocs.io/en/latest/) to standardize the local and remote testing environments.
 Note that `tox` will install the dependencies from `requirements.txt` automatically and run a linter (`black`); if that is not desirable, you can just run `py.test`.
+
+## Deployment
+
+```bash
+brownie accounts add matic-sub-manager
+
+POLYGONSCAN_TOKEN="<the-token>" WEB3_INFURA_PROJECT_ID="<the-id>" brownie run scripts/deploy_subscription_manager.py main matic-sub-manager --interactive --network polygon-test
+```

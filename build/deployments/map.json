@@ -9,5 +9,18 @@
     "TransparentUpgradeableProxy": [
       "0xB0194073421192F6Cf38d72c791Be8729721A0b3"
     ]
+  },
+  "80001": {
+    "ProxyAdmin": [
+      "0x2458Fb86f94dc451F0040f5271A3848A94989B96",
+      "0x699c11F4F31d17536f921Cd67AFE14Ab90AFc48D"
+    ],
+    "SubscriptionManager": [
+      "0x1DED886823924000AE3c11e50dd171f31A82CAf8",
+      "0x17758Ca3B285480CFA6e991A2B56B2a11EB0287d"
+    ],
+    "TransparentUpgradeableProxy": [
+      "0xb9015d7B35Ce7c81ddE38eF7136Baa3B1044f313"
+    ]
   }
 }
